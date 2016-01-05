@@ -12,7 +12,7 @@ start=datetime.datetime.now()
 print start
 try:
 	while (True):
-			if addr=='192.168.0.9'or 'localaddress':
+			if addr=='192.168.0.9'or 'localaddress': ## add list of clients only for which files are to be accepted
 			print 'connected by', addr
 			size=conn.recv(1024)
 			size=int (size)
